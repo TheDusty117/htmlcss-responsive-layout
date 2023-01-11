@@ -4,6 +4,10 @@
 	box-sizing: border-box;
 }
 
+html {
+	font-family: 'Noto Sans JP', sans-serif;
+}
+
 img {
 	width: 100%;
 }
@@ -34,6 +38,7 @@ a {
 .container{
   max-width: 1140px;
   margin: 0 auto;
+  padding: 20px 0px;
 }
 
 /*************** ROW **************/
@@ -43,19 +48,26 @@ a {
   flex-wrap: wrap;
 }
 
-/*************** COLS **************/
-
-/*************** HEADER **************/
-
-header{
-  background-color: var(--blue);
-}
-
 .row-between{
   justify-content: space-between;
   align-items: center;
 }
 
+/*************** COLS **************/
+
+/*************** HEADER **************/
+
+.main-header{
+  background-color: var(--blue);
+}
+
 .nav-list{
   display: flex;
+}
+
+.nav-item a {
+  color: white;
+  line-height: 38px;
+  font-size: 16px;
+  padding: 0 16px;
 }
