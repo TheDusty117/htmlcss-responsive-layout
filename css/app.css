@@ -1,0 +1,36 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+img {
+	width: 100%;
+}
+
+ul,
+ol,
+menu,
+li {
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+	color: currentColor;
+}
+
+:root {
+  --blue: #0084FD;
+  --lightblue: #B5DDFF;
+  --purple: #9792E4;
+  --dark: #333333;
+  --yellow: #FDC15F;
+}
+
+/*************** CONTAINER **************/
+
+.container{
+  max-width: 1140px;
+  margin: 0 auto;
+}
