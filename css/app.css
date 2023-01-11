@@ -55,10 +55,21 @@ a {
 
 /*************** COLS **************/
 
+/*************** BUTTONS **************/
+
+.button{
+
+}
+
+.button-white{
+
+}
+
 /*************** HEADER **************/
 
 .main-header{
   background-color: var(--blue);
+  color: white;
 }
 
 .nav-list{
@@ -71,3 +82,10 @@ a {
   font-size: 16px;
   padding: 0 16px;
 }
+
+.hamburger {
+  display: none;
+}
+
+/***************** MEDIAQUERY ******************/
+
